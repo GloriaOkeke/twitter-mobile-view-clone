@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #060221;
+    color: rgb(246, 239, 239, 0.8);
+    padding: 10px;
+}
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-bottom: 1px solid rgb(113, 110, 110);
+}
+.container{
+    width: 30%;
+    border-radius: 900px;
+}
+
+.posted-img{
+    border-radius: 900px;
+    width: 45%;
+}
+
+.shared-img{
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.update{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+.ambivert{
+   width: 90%;
+   margin-left: 0px;
+}
+
+.option{
+    transform: rotate(90deg);
+    margin-top: 5px;
+    height: 20%;
+}
+
+.reviews{
+    display: inline-flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.post-review{
+    padding-right: 30px;
+}
+
+section{
+    border: 1px solid rgba(113, 110, 110, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+}
+.white-txt{
+    color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* #twitter-logo{
+    color: blue;
+} */
